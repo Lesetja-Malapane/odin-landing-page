@@ -60,7 +60,7 @@ a{
 
 img{
     display: flex;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 button{
@@ -124,5 +124,16 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
+    padding: 25px 50px;
+    margin: 50px 150px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
